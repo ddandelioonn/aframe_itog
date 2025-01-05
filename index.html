@@ -59,14 +59,14 @@
       <!-- 3D-модели (перед галереей) -->
       <a-entity
         gltf-model="#treeModel"
-        position="-1 0 -2"  <!-- Уменьшено значение Z для близости к камере -->
+        position="0 0 -2"  <!-- Позиция дерева рядом с машиной -->
         scale="1.5 1.5 1.5"
         animation="property: rotation; to: 0 360 0; loop: true; dur: 5000">
       </a-entity>
       <a-entity
         gltf-model="#carModel"
-        position="1 0 -2"  <!-- Уменьшено значение Z для близости к камере -->
-        scale="0.5 0.5 0.5">
+        position="2 0 -2"  <!-- Позиция машины, ближе к камере -->
+        scale="2 2 2"> <!-- Увеличенный масштаб машины -->
       </a-entity>
 
       <!-- Камера -->
